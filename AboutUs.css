@@ -1,0 +1,94 @@
+body
+{
+		background-color:#D9D9D9;
+
+
+}
+
+#taqiImg
+{
+    padding: 20px;
+}
+
+
+
+p{
+
+  font-size: 20px;
+
+}
+
+
+#header
+{	  background-color:#7B2240 ;
+		height:85px;  
+		 margin: 0;
+		padding-left: 200px;
+		
+       padding: 30px; 
+        overflow: hidden;
+ 
+
+}
+
+#headerImage 
+
+{
+    margin-top: -25px; 
+    margin-bottom: -10px;
+    margin-left:37%;
+      
+}
+
+#navbar {
+   
+ background-color: #F1F1F1;  
+
+  color: white; 
+  width: 100%;
+  overflow: hidden;
+
+  
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+ padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Arial;
+}
+
+#navbar a:hover {
+  background-color:#7B2240;
+  color: white;
+
+}
+
+
+
+#footer
+{
+  text-align: center;
+  padding: 30px;
+  background-color: #7B2240;
+  color: white;
+  font-family: Sans-serif;
+  font-size: 15px;
+  width: 100%;
+}
+
+#fa
+{   text-align: right;
+  font-size:24px; 
+}
+
+#logoutButton
+{
+           
+            
+
+}

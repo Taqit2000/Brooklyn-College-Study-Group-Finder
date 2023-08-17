@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Study Group Finder </title>
+	<link rel="stylesheet" type="text/css" href="HomeCSS.css"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="Home.js"></script>
+</head>
+
+<body >
+
+<div id="header"> 
+<img  id="headerImage" src="BrooklynCollege.PNG">
+<h1  id="headerTitle" > Study Group Finder </h1> 
+
+</div>
+
+
+<div id="navbar">
+  <a class="HomePage.html" href="javascript:void(0)">Home</a>
+  <a href="AboutUs.html">About Us</a>
+  <a href="Contact.html">Contact</a>
+  
+</div>
+
+<br>
+
+
+<!--<div id="bodyContainer"> -->
+      <!--the image is added first here-->
+
+
+<!--   </div> -->
+
+
+<div class="flex-container">
+
+  <div class="flex-child left" id="leftChild">
+    
+    
+    <!--    <img src="C:\Users\BeastPV\Desktop\Final Broject\CSS\library3.jpg"     -->
+ 
+    </center>
+
+
+    <center>  <h3 style="color: #7B2240" ;> Popular Groups: </h3>   </center>
+
+   <div id="div1">
+    <center> 
+    <b>  
+   	<p style="margin-left: ; ">Group:  Data Structures </p>    
+    
+     <p>Room NO:  IG202 </p>
+     <p> Starts: 5pm</p>
+     
+    <b>  <p style="text-align:;" id="countdown1"> Time here: </p> </b>
+  </b>
+</center>
+   </div>
+
+
+  <div id="div2">
+   <center> 
+    <b>  
+    <p style="margin-left: ; ">Group:  Algorithms</p>    
+    
+     <p>Room NO:  IG203</p>
+      <p> Starts: 6pm</p>
+    <b>  <p style="text-align:;" id="countdown2"> Time here: </p> </b>
+  </b>
+</center>
+   </div>
+
+
+
+  <div id="div3">
+    <center> 
+    <b>  
+    <p style="margin-left: ; ">Group:  Web Design </p>    
+    
+     <p>Room NO:  IG204 </p>
+      <p> Starts: 7pm</p>
+     
+    <b>  <p style="text-align:;" id="countdown3"> Time here: </p> </b>
+  </b>
+</center>
+   </div>
+<hr class="new1">
+<center> <h3 style="color: #7B2240"> Add a Course? </h3> </center>
+<center> 
+      <form action="enroll.php" method="post">
+     <label for="Id"><b>Id : </b></label>
+    <input type="text" placeholder="Id" name="Id" id="Id" required>
+    <br> 
+    <label for="password"><b> Password: </b></label> 
+    <input type="password" placeholder="Password" name="password" id="password" required>
+
+
+    <br> 
+        <label for="course"><b> Select a course: </b></label>
+        <select name="course" id="course" required>
+            <option value="Data Structures">Data Structures</option>
+            <option value="Algorithms">Algorithms</option>
+            <option value="WebDesign">Web Design</option>
+        </select>
+        <br> 
+        <input type="submit" value="Enroll" id="EnrollButton">
+    </form>
+</center>
+
+
+  </div>
+  
+  <div class="flex-child right" id="rightChild" >
+     <h1 id="h1ofForm"> Sign UP!!</h1>
+    
+
+     <center> 
+     <form form name="form1"  action="SignupForm.php"  method="post" >
+     <div class="container">
+    
+    <p>Please fill in this form to create an account: </p>
+    <hr>
+    <label for="FirstName"><b>First Name: </b></label>
+    <input type="text" placeholder="FirstName" name="FirstName" id="FirstName" required>
+    <br> 
+
+    <label for="LastName"><b>Last Name: </b></label>
+    <input type="text" placeholder="LastName" name="LastName" id="LastName" required>
+    <br> 
+
+
+
+    <label for="email"><b>Email:  </b></label>
+    <input type="text" placeholder="Enter Brooklyn College Email" name="email" id="email" required>
+   
+    <br> 
+
+    <label for="psw"><b>Password : </b></label>
+    <input type="password" placeholder="Enter Password" name="password" id="psw" required>
+    <br> 
+
+    <label for="phone"><b>Phone:  </b></label>
+    <input type="text" placeholder="Enter Phone number" name="phone" id="phone" required>
+    <br>
+    
+    <b> 
+     <label for="text">Please Insert Gender: </label>
+  <input type="radio" id="Male" name="gender" value="Male">
+  <label for="Male">Male</label>
+ <input type="radio" id="Female" name="gender" value="Female">
+ <label for="Female">Female</label>
+ <input type="radio" id="Other" name="gender" value="Other">
+  <label for="Other">Other</label>
+</b>
+<br> 
+
+
+
+
+  
+
+   <br> 
+    <button type="submit" class="registerbtn" id="SignUp" >SignUp</button>
+
+  </div>
+
+  <div class="container signin">
+    <p>Already have an account? <a href="login.html">Sign in</a>.</p>
+  </div>
+</form>
+
+
+
+
+
+  </div>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer id="footer">
+  <p>Brooklyn College </p>
+  <p>900 Bedford Avenue, Brooklyn, NY 11210 </p> <br> 
+  <i  id="fa" class="fa">&#xf082;</i>
+  <i id="fa" class="fa">&#xf16d;</i>
+</footer>
+
+
+</body>
+</html>
